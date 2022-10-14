@@ -1,0 +1,117 @@
+//VARIABLES-------------------------
+//COLORS
+$base-color: #c2e7f8;
+$accent-color-1: #ffdfef;
+$accent-color-2: #cdd2e7;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Khula:wght@600&family=PT+Sans+Caption:wght@400;700&family=Poppins&display=swap');
+$main-font: 'Poppins', sans-serif;
+$heading-font: 'Khula', sans-serif;
+$title-font: 'PT Sans Caption', sans-serif;
+
+//TEXT------------------------------------------------------
+*{
+    font-size: 62.5%;
+}
+h1{
+    font-family: $title-font;
+    font-size: 5rem;
+    text-align: center;
+}
+h2{
+    font-family: $heading-font;
+    font-size: 2rem;
+    text-align: center;
+}
+p, input, label, div, section, ul, a{
+    font-family: $main-font;
+    font-size: 1.2rem;
+}
+label{
+    font-weight: bold;
+}
+
+//LAYOUT & STYLES-----------------------------------------
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c2e7f8;
+    padding: 1rem;
+}
+
+section{
+    width: 95vw;
+    padding: 1.2rem 0;
+}
+
+#addCharacter{
+
+    display: flex;
+    justify-content: center;
+    .container{
+        background-color: $accent-color-1;
+        width: 40%;
+        padding: 2rem;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        form{
+            padding: 1rem 0 2rem 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .button{
+            font-weight: bold;
+            color: white;
+            text-transform: uppercase;
+            background-color: #e95088 ;
+            // border: solid 2px $base-color;
+            border-radius: 2rem;
+            width: 50%;
+            text-align: center;
+            padding: .5rem;
+        }
+    }
+
+}
+
+#myCharacters{
+    #characters{
+        display: flex;
+        flex-flow: row wrap;
+        .character{
+            box-sizing: border-box;
+            width: 31.333%;
+            margin: 1%;
+            margin-bottom:3rem;
+            background-color:white;
+            border-radius: 2rem;
+            img{
+                width: 100%;
+                border-radius: 2rem;
+            }
+            h3{
+                font-size: 3rem;
+                font-family: $heading-font;
+                margin-top: .5rem;
+                padding:2rem 1rem 0rem 1rem;
+                background-color: white;
+                border-radius: 2rem 2rem 0 0;
+            }
+            h4{
+                font-style: italic;
+                
+                padding-left: 1rem;
+            }
+            p{
+                padding:1rem 1rem 2rem 1rem;
+                
+            };
+
+        }
+    }
+}

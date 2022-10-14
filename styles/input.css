@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Khula:wght@600&family=PT+Sans+Caption:wght@400;700&family=Poppins&display=swap");
+* {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Khula", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+p, input, label, div, section, ul, a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c2e7f8;
+  padding: 1rem;
+}
+
+section {
+  width: 95vw;
+  padding: 1.2rem 0;
+}
+
+#addCharacter {
+  display: flex;
+  justify-content: center;
+}
+#addCharacter .container {
+  background-color: #ffdfef;
+  width: 40%;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#addCharacter .container form {
+  padding: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#addCharacter .container .button {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  background-color: #e95088;
+  border-radius: 2rem;
+  width: 50%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#myCharacters #characters {
+  display: flex;
+  flex-flow: row wrap;
+}
+#myCharacters #characters .character {
+  box-sizing: border-box;
+  width: 31.333%;
+  margin: 1%;
+  margin-bottom: 3rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+#myCharacters #characters .character img {
+  width: 100%;
+  border-radius: 2rem;
+}
+#myCharacters #characters .character h3 {
+  font-size: 3rem;
+  font-family: "Khula", sans-serif;
+  margin-top: 0.5rem;
+  padding: 2rem 1rem 0rem 1rem;
+  background-color: white;
+  border-radius: 2rem 2rem 0 0;
+}
+#myCharacters #characters .character h4 {
+  font-style: italic;
+  padding-left: 1rem;
+}
+#myCharacters #characters .character p {
+  padding: 1rem 1rem 2rem 1rem;
+}/*# sourceMappingURL=input.css.map */
