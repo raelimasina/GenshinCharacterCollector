@@ -1,5 +1,10 @@
 # GenshinCharacterCollector
 *a web app to show off your collection*
+<br>
+
+https://user-images.githubusercontent.com/26192879/199576884-d56268d1-9980-4dcb-a009-9e1c54f6ab48.mov
+
+<br>
 
 ## Description
 This web app is designed to let users keep track of their Genshin Character Collection without loading into the game. Upon load, the user can type in the first
